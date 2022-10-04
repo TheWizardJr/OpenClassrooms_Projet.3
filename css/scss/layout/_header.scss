@@ -1,0 +1,22 @@
+.title{
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    h1{
+        font-weight: 100;
+        margin-top: 1.5rem;
+    }
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-color: #EAEAEA;
+    color: #353535;
+    font-weight: 500;
+}
