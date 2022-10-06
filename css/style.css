@@ -7,6 +7,11 @@ body {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 * {
   font-family: Roboto, serif;
 }
@@ -130,6 +135,69 @@ h1 {
   justify-content: center;
   align-items: center;
   margin-left: -45px;
+}
+
+.restaurant {
+  height: 1226px;
+  background-color: #F6F6F6;
+  padding: 0 21px;
+}
+
+.restaurant h2 {
+  margin: 0;
+  padding: 52px 0 27px 0;
+  font-size: 19px;
+}
+
+.restaurant_card {
+  height: 251px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.25);
+}
+.restaurant_card img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.restaurant_card .text_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 24px 0 14px;
+}
+.restaurant_card .text_card i {
+  font-size: 21px;
+  position: relative;
+  top: 5px;
+}
+.restaurant_card h3, .restaurant_card p {
+  margin: 0;
+}
+
+.new {
+  position: relative;
+}
+.new::before {
+  content: "Nouveau";
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #99E2D0;
+  color: #278870;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like {
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

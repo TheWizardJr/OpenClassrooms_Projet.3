@@ -25,7 +25,7 @@
     border-radius: 20px;
     background-color: #F6F6F6;
     font-weight: 500;
-    box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.25);
+    @include box-shadow;
     &:hover{
         background-color: #F5EDFF;
         .fa-solid{
