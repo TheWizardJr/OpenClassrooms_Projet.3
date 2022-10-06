@@ -18,6 +18,13 @@
     @include new
 }
 
-.like{
-    position: absolute;
+.container_card{
+    position: relative;
+    i{
+        position: absolute;
+        bottom: 33px;
+        right: 24px;
+        font-size: 21px;
+    }
+    @include heart-pink
 }
