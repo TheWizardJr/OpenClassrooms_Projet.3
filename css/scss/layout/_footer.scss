@@ -1,0 +1,29 @@
+.footer{
+    height: 197px;
+    padding: 0 25px;
+    background-color: #353535;
+    color: #fff;
+    i{
+        color: #fff;
+        font-size: 13px;
+    }
+    p{
+        font-size: 15px;
+        margin: 5px 0 5px 0;
+    }
+}
+
+.title_footer{
+    margin: 0;
+    padding-top: 21px;
+    padding-bottom: 23px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.logo_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
