@@ -16,16 +16,16 @@ a {
   font-family: Roboto, serif;
 }
 
-h1, .title_footer, .circle {
+h1, .title_footer, .circle p {
   font-family: "Shrikhand", serif;
 }
 
 @keyframes disappear {
   50% {
-    opacity: 1;
+    transform: scale(1);
   }
   100% {
-    opacity: 0;
+    transform: scale(0);
   }
 }
 @keyframes grow {
@@ -41,7 +41,25 @@ h1, .title_footer, .circle {
 }
 @keyframes rotate {
   to {
-    transform: rotate(359deg);
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 660px) {
+  .circle {
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px !important;
+  }
+  .shadow {
+    margin-top: 0px !important;
+    height: 10px !important;
+  }
+  .circle p {
+    font-size: 20px;
+  }
+  .fa-utensils {
+    font-size: 50px !important;
+    transform-origin: 25px 25px !important;
   }
 }
 .title {
@@ -277,7 +295,6 @@ h1, .title_footer, .circle {
   height: 100vh;
   inset: 0 0 0 0;
   z-index: 1;
-  animation: disappear 1s 3.5s forwards;
 }
 .loader .fa-utensils {
   font-size: 60px;
@@ -291,7 +308,6 @@ h1, .title_footer, .circle {
 }
 .loader .spinner {
   height: 50px;
-  transform-origin: bottom center;
   display: flex;
 }
 .loader .spinner .circle {

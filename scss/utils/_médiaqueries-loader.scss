@@ -1,0 +1,18 @@
+@media screen and (max-width: 660px){
+    .circle{
+        width: 30px !important;
+        height: 30px !important;
+        margin: 5px !important;
+    }    
+    .shadow{
+        margin-top: 0px !important;
+        height: 10px !important;
+    }
+    .circle p{
+        font-size: 20px;
+    }
+    .fa-utensils{
+        font-size: 50px !important;
+        transform-origin: 25px 25px !important;
+    }
+}

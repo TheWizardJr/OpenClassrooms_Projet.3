@@ -8,7 +8,7 @@
     height: 100vh;
     inset: 0 0 0 0;
     z-index: 1;
-    animation: disappear 1s 3.5s forwards;
+    // animation: disappear 1s 3.5s forwards;
     .fa-utensils{
         font-size: 60px;
         background: -webkit-linear-gradient(354deg, $primary, $secondary);
@@ -21,7 +21,6 @@
     }
     .spinner{
         height: 50px;
-        transform-origin: bottom center;
         display: flex;
         .circle{
             display: flex;
