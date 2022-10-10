@@ -50,16 +50,16 @@ h1, .title_footer, .circle p {
     height: 30px !important;
     margin: 5px !important;
   }
-  .shadow {
-    margin-top: 0px !important;
-    height: 10px !important;
-  }
   .circle p {
     font-size: 20px;
   }
-  .fa-utensils {
+  .circle .fa-utensils {
     font-size: 50px !important;
     transform-origin: 25px 25px !important;
+  }
+  .shadow {
+    margin-top: 0px !important;
+    height: 10px !important;
   }
 }
 .title {
