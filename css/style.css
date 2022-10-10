@@ -295,6 +295,7 @@ h1, .title_footer, .circle p {
   height: 100vh;
   inset: 0 0 0 0;
   z-index: 1;
+  animation: disappear 0s 3.5s forwards;
 }
 .loader .fa-utensils {
   font-size: 60px;
