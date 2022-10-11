@@ -3,24 +3,20 @@
     display: flex;   
     flex-direction: column;
     align-items: center; 
-    padding: 43px 35px 57px;
+    padding: 39px 35px 57px;
+    h2{
+        text-align: center;
+        margin: 0;
+        font-size: 19px;
+    }
+    p{
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 31px;
+        margin-top: 11px;
+        font-size: 15px;
+    }
+    button{
+        @include pink-button
+    }
 }
- 
-.explore h2{
-    text-align: center;
-    margin: 0;
-    font-size: 19px;
-}
-
-.explore p{
-    text-align: center;
-    font-weight: 300;
-    margin-bottom: 31px;
-    margin-top: 20px;
-    font-size: 15px;
-}
-
-.explore button{
-    @include pink-button
-}
-

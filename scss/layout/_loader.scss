@@ -8,7 +8,7 @@
     height: 100vh;
     inset: 0 0 0 0;
     z-index: 1;
-    animation: disappear 0s 3.5s forwards;
+    animation: disappear 0s 3.9s forwards;
     .fa-utensils{
         font-size: 60px;
         background: -webkit-linear-gradient(354deg, $primary, $secondary);
@@ -20,7 +20,6 @@
         animation: rotate 2s infinite;
     }
     .spinner{
-        height: 50px;
         display: flex;
         .circle{
             display: flex;
@@ -33,7 +32,7 @@
             animation: grow 3s ease-in-out;
             animation-iteration-count: 1000;
             transform: scale(0);
-            margin: 10px;
+            margin-left: 20px;
             font-size: 35px;
         }
         .circle:nth-child(2){

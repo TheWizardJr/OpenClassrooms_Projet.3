@@ -1,19 +1,22 @@
 @media screen and (max-width: 660px){
+    .spinner{
+        padding-right: 30px;
+    }
     .circle{
-        width: 30px !important;
-        height: 30px !important;
-        margin: 5px !important;
+        max-width: 30px;
+        max-height: 30px;
+        width: 30px;
+        height: 30px;
+        margin-right: -10px;
         p{
             font-size: 20px;
         }
         .fa-utensils{
-            font-size: 50px !important;
-            transform-origin: 25px 25px !important;
+            font-size: 50px;
+            transform-origin: 25px 25px;
         }
     }    
     .shadow{
-        margin-top: 0px !important;
-        height: 10px !important;
+        margin-top: 20px !important;
     }
-
 }

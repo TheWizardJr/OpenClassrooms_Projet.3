@@ -2,13 +2,14 @@
     @include box-shadow;
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     height: 63px;
     h1{
         font-weight: 100;
         margin: 0;
         font-size: 29px;
+        padding-bottom: 5px;
     }
 }
 
@@ -21,4 +22,9 @@
     background-color: #EAEAEA;
     color: #353535;
     font-weight: 500;
+    i{
+        color: #353535;
+        font-size: 16px;
+        padding-bottom: 3px;
+    }
 }
