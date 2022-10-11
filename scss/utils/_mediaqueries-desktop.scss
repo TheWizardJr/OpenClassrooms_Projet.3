@@ -1,0 +1,109 @@
+@media screen and (min-width: 1024px){
+
+    .title{
+        height: 100px;
+        align-items: center;
+        h1{
+            font-size: 45px;
+            padding: 0;
+        }
+    }
+
+    .location{
+        height: 65px;
+        i, p{
+            font-size: 18px;
+        }
+    }
+
+    .explore{
+        gap: 91px;
+        padding: 65px 36px;
+        button{
+            font-size: 18px;
+            height: 60px;
+            border-radius: 50px;
+        }
+        .explore_text{
+            display: flex;
+            align-items: center;
+            gap: 91px;
+            h2{
+                font-size: 25px;
+            }
+            p{
+                font-size: 17px;
+            }
+            a{
+                font-size: 18px;
+            }
+        }
+    }
+
+
+    .explain{
+        padding: 0 36px;
+        height: 272px;
+        h2{
+            padding-bottom: 41px;
+            font-size: 25px;
+        }
+        .explain_card{
+            .explain_littlecard{
+                p{
+                    font-size: 17px;
+                }
+                .fa-solid{
+                    font-size: 23px;
+                }
+                .number{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .restaurant{
+        height: 980px;
+        padding: 0 36px;
+        h2{
+            padding-bottom: 41px;
+            font-size: 25px;
+        }
+        .container_restaurant{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .container_card{
+                width: 49%;
+                margin-bottom: 30px;
+                img{
+                    height: 80%;
+                }
+                i{
+                    bottom: 50px;
+                }
+                a .restaurant_card{
+                    height: 370px;
+                }
+            }
+        }
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .title_footer{
+            padding: 0 90px 0 0;
+            font-size: 40px;
+        }
+        a{
+            padding-right: 28px;
+        }
+        i, p{
+            font-size: 17px;
+        }
+    }
+}

@@ -7,20 +7,23 @@
         padding: 52px 0 27px 0;
         font-size: 19px;
     }
-    .container_card{
-        position: relative;
-        i{
-            position: absolute;
-            bottom: 33px;
-            right: 24px;
-            font-size: 21px;
-        }
-        @include heart-pink;
-        .restaurant_card{
-            @include restaurant-card
-        }
-        .new{
-            @include new
-        }
+}
+
+.container_card{
+    position: relative;
+    @include heart-pink;
+    i{
+        position: absolute;
+        bottom: 33px;
+        right: 24px;
+        font-size: 21px;
     }
+}
+
+.restaurant_card{
+    @include restaurant-card
+}
+
+.new{
+    @include new
 }

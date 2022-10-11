@@ -1,11 +1,11 @@
 .explain{
     height: 440px;
     padding: 0 21px;
-}
-.explain h2{
-    margin: 0;
-    padding: 48px 0 29px 0;
-    font-size: 19px;
+    h2{
+        margin: 0;
+        padding: 48px 0 29px 0;
+        font-size: 19px;
+    }
 }
 .explain_card{
     display: flex;
@@ -24,14 +24,6 @@
         background-color: #F6F6F6;
         font-weight: 500;
         @include box-shadow;
-        .fa-solid{
-            color: #7E7E7E;
-            font-size: 21px;
-        }
-        p{
-            font-size: 15px;
-            font-weight: 600;
-        }
         .number{
             width: 25px;
             height: 25px;
@@ -43,6 +35,14 @@
             align-items: center;
             margin-left: -44px;
             font-size: 12px;
+        }
+        .fa-solid{
+            color: #7E7E7E;
+            font-size: 21px;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 600;
         }
         &:hover{
             background-color: #F5EDFF;

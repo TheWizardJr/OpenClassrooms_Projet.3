@@ -1,0 +1,45 @@
+@media screen and (min-width: 768px){
+
+    
+    .explore{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 35px;
+        padding: 39px 21px 57px;
+        .explore_text{
+            display: flex;
+            align-items: center;
+            gap: 35px;
+        }
+        h2, p{
+            text-align: left;
+            margin: 0;
+            text-align: center;
+        }
+    }
+    
+    .explain{
+        height: 255px;
+        .explain_card{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .title_footer{
+            padding: 0 58px 0 0;
+            font-size: 30px;
+        }
+        a{
+            padding-right: 17px;
+        }
+        i, p{
+            font-size: 13px;
+        }
+    }
+}
