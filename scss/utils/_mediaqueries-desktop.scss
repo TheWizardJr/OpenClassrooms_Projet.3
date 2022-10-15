@@ -144,8 +144,18 @@
                         margin-top: 25px;
                         height: 90px;
                         align-items: center;
+                        .dish_price{
+                            padding-bottom: 0;
+                        }
                         >div{
                             justify-content: space-evenly;
+                        }
+                        .checkbox{
+                            width: 76px;
+                            margin-right: -76px;
+                            .fa-circle-check{
+                                font-size: 27px;
+                            }
                         }
                     }
                 }
