@@ -2,10 +2,13 @@
 
     .title{
         height: 100px;
-        align-items: center;
         h1{
             font-size: 45px;
             padding: 0;
+        }
+        .fa-arrow-left{
+            font-size: 37px;
+            top: 32px;
         }
     }
 
@@ -20,9 +23,7 @@
         gap: 90px;
         padding: 65px 36px;
         button{
-            font-size: 18px;
-            height: 60px;
-            border-radius: 50px;
+            @include big-pink-button;
         }
         .explore_text{
             display: flex;
@@ -64,7 +65,7 @@
     }
 
     .restaurant{
-        height: 980px;
+        height: 1030px;
         padding: 0 36px;
         h2{
             padding-bottom: 41px;
@@ -92,6 +93,7 @@
     }
 
     .footer{
+        margin-top: -50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -104,6 +106,63 @@
         }
         i, p{
             font-size: 17px;
+        }
+    }
+
+    .footer_menu{
+        padding-top: 50px;
+    }
+    
+
+    .photo_restaurant img{
+        height: 560px;
+    }
+
+    .container_menu{
+        max-width: 1440px;
+        margin: auto;
+        margin-top: -50px;
+        border-radius: 20px;
+        height: 674px;
+        .title_restaurant{
+            justify-content: center;
+            h2{
+                font-size: 40px;
+            }
+            i{
+                font-size: 32px;
+            }
+        }
+        .menu{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            >div{
+                width: 30%;
+                .dish{
+                    .dish_card{
+                        margin-top: 25px;
+                        height: 90px;
+                        align-items: center;
+                        >div{
+                            justify-content: space-evenly;
+                        }
+                    }
+                }
+            }
+            h3{
+                font-size: 26px;
+            }
+            hr{
+                height: 5px;
+                width: 66px;
+            }
+        }
+        .order_button{
+            .order{
+                @include big-pink-button;
+                width: 180px;
+            }
         }
     }
 }

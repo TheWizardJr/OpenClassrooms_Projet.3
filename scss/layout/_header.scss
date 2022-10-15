@@ -2,14 +2,14 @@
     @include box-shadow;
     position: relative;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     height: 63px;
     h1{
         font-weight: 100;
         margin: 0;
         font-size: 29px;
-        padding-bottom: 5px;
+        padding-top: 12px;
     }
 }
 

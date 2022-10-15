@@ -14,6 +14,22 @@
         transition-duration: 0.3s;
     }
 }
+@mixin big-pink-button {
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    height: 60px;
+    padding : 0 22px;
+    @include box-shadow;
+    @include gradient;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+        box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.5);
+        transition-duration: 0.3s;
+    }
+}
 
 @mixin gradient {
     background-image: linear-gradient(354deg, $primary, $secondary);
