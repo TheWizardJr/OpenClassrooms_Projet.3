@@ -40,6 +40,10 @@
         }
     }
     .menu{
+        div{
+            animation: dish_appear 2s;
+            transition-delay: 0s;
+        }
         h3{
             margin: 0;
             padding-top: 37px;
@@ -66,7 +70,7 @@
                 height: 70px;
                 width: 100%;
                 overflow: hidden;
-                >div{
+                .dish_details{
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
@@ -93,8 +97,7 @@
                 }
                 .dish_price{
                     font-weight: 500;
-                    padding-right: 22px;
-                    padding-bottom: 12px;
+                    padding: 0 22px 12px 7px;
                     margin-left: auto;
                 }
                 .checkbox{
@@ -103,7 +106,9 @@
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    height: 100%;
                     width: 59px;
+                    min-width: 59px;
                     margin-right: -59px;
                     transition: margin-right 0.6s;
                     .fa-circle-check{
@@ -121,6 +126,12 @@
                     }
                 }
             }
+            .dish_card:nth-child(2){
+                animation-delay: 0.25s;
+            }
+            .dish_card:nth-child(3){
+                animation-delay: 0.5s;
+            }
         }
     }
     .order_button{
@@ -128,7 +139,8 @@
         justify-content: center;
         margin-top: 46px;
         .order{
-            @include pink-button
+            @include pink-button;
+            width: 186px;
         }
     }
 }

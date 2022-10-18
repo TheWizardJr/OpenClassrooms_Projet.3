@@ -24,3 +24,12 @@
         transform: rotate(360deg);
     }
 }
+
+@keyframes dish_appear{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}

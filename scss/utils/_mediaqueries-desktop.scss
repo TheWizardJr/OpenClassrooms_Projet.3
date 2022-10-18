@@ -22,7 +22,7 @@
     .explore{
         gap: 90px;
         padding: 65px 36px;
-        button{
+        .button{
             @include big-pink-button;
         }
         .explore_text{
@@ -64,7 +64,7 @@
         }
     }
 
-    .restaurant{
+    #restaurant{
         height: 1030px;
         padding: 0 36px;
         h2{
@@ -171,7 +171,7 @@
         .order_button{
             .order{
                 @include big-pink-button;
-                width: 180px;
+                width: 232px;
             }
         }
     }

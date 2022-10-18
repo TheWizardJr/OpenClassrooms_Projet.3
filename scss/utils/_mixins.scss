@@ -1,16 +1,19 @@
 @mixin pink-button {
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 25px;
     border: none;
     color: #fff;
     height: 50px;
     padding : 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @include box-shadow;
     @include gradient;
     cursor: pointer;
     &:hover{
         opacity: 0.8;
-        box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.5);
+        @include box-shadow-hover;
         transition-duration: 0.3s;
     }
 }
@@ -21,12 +24,15 @@
     color: #fff;
     height: 60px;
     padding : 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     @include box-shadow;
     @include gradient;
     cursor: pointer;
     &:hover{
         opacity: 0.8;
-        box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.5);
+        @include box-shadow-hover;
         transition-duration: 0.3s;
     }
 }
@@ -37,6 +43,10 @@
 
 @mixin box-shadow{
     box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.25); 
+}
+
+@mixin box-shadow-hover{
+    box-shadow: 2px 3px 10px rgba(30, 30, 30, 0.5);
 }
 
 @mixin restaurant-card{

@@ -4,7 +4,6 @@
     h2{
         margin: 0;
         padding: 48px 0 29px 0;
-        font-size: 19px;
     }
 }
 .explain_card{
@@ -38,7 +37,15 @@
         }
         .fa-solid{
             color: #7E7E7E;
-            font-size: 21px;
+        }
+        .fa-mobile-screen-button{
+            font-size: 19px;
+        }
+        .fa-list-ul{
+            font-size: 15px;
+        }
+        .fa-store{
+            font-size: 17px;
         }
         p{
             font-size: 15px;
