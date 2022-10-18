@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - ohmyfood</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/icon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <script src="https://kit.fontawesome.com/f5b79677c9.js" crossorigin="anonymous"></script>
-    <link rel="shortcut icon" href="images/logo/ohmyfood@2x.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <!-- LOADER -->
+    <!-- PAGE LOADER -->
     <div class="loader">
+            <!-- SPINNING ICON -->
             <i class="fa-solid fa-utensils"></i>
-            <div class="container_spiner">
-                <div class="spinner">
+            <div class="container_appears">
+                <!-- LETTER APPEARS -->
+                <div class="appears">
                     <div class="circle"><p>o</p></div>
                     <div class="circle pink"><p>h</p></div>
                     <div class="circle"><p>m</p></div>
@@ -24,7 +31,8 @@
                     <div class="circle"><p>o</p></div>
                     <div class="circle pink"><p>d</p></div>
                 </div>
-                <div class="spinner">
+                <!-- SHADOW APPEARS -->
+                <div class="appears">
                     <div class="circle shadow"></div>
                     <div class="circle shadow"></div>
                     <div class="circle shadow"></div>
@@ -39,9 +47,11 @@
 
     <!-- HEADER -->
     <header>
+        <!-- TITLE -->
         <div class="title">
             <h1 class>ohmyfood</h1>
         </div>
+        <!-- LOCATION -->
         <div class="location">
             <i class="fa-sharp fa-solid fa-location-dot"></i>
             <p>Paris, Belleville</p>
@@ -60,6 +70,7 @@
                     <p>Découvrez des restaurants d'exception, <br> séléctionnées par nos soins.</p>
                 </div>
             </div>
+            <!-- EXPLORE BUTTON -->
             <a href="#restaurant" class="button">Explorer nos restaurants</a>
         </section>
 
@@ -91,6 +102,7 @@
         <!-- RESTAURANT -->
         <section id="restaurant">
             <h2>Restaurants</h2>
+            <!-- CONTAINER RESTAURANT -->
             <div class="container_restaurant">
                 <!-- CARD 1 -->
                 <div class="container_card">
@@ -105,6 +117,7 @@
                             </div>
                         </div>
                     </a>
+                    <!-- HEART -->
                     <i class="far fa-heart"></i>
                     <i class="heart-pink fas fa-heart"></i>
                 </div>
@@ -121,6 +134,7 @@
                             </div>
                         </div>
                     </a>
+                    <!-- HEART -->
                     <i class="far fa-heart"></i>
                     <i class="heart-pink fas fa-heart"></i>
                 </div>
@@ -137,6 +151,7 @@
                             </div>
                         </div>
                     </a>
+                    <!-- HEART -->
                     <i class="far fa-heart"></i>
                     <i class="heart-pink fas fa-heart"></i>
                 </div>
@@ -153,17 +168,18 @@
                             </div>
                         </div>
                     </a>
+                    <!-- HEART -->
                     <i class="far fa-heart"></i>
                     <i class="heart-pink fas fa-heart"></i>
                 </div>
             </div>
         </section>
-
     </main>
 
     <!-- FOOTER -->
     <footer>
         <div class="footer">
+            <!-- TITLE -->
             <h3 class="title_footer">ohmyfood</h3>
             <div>
                 <a class="logo_footer" href="#"><i class="fa-solid fa-utensils"></i><p>Proposer un restaurant</p></a>
@@ -175,6 +191,6 @@
             <a href="mailto:contact@ohmyfood.fr"><p>Contact</p></a>
         </div>
     </footer>
-
 </body>
+
 </html>

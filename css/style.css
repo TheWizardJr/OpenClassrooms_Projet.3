@@ -320,10 +320,10 @@ h2 {
   transform-origin: 30px 30px;
   animation: rotate 2s infinite;
 }
-.loader .spinner {
+.loader .appears {
   display: flex;
 }
-.loader .spinner .circle {
+.loader .appears .circle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,31 +337,31 @@ h2 {
   margin-left: 20px;
   font-size: 35px;
 }
-.loader .spinner .circle:nth-child(2) {
+.loader .appears .circle:nth-child(2) {
   animation-delay: 0.25s;
 }
-.loader .spinner .circle:nth-child(3) {
+.loader .appears .circle:nth-child(3) {
   animation-delay: 0.5s;
 }
-.loader .spinner .circle:nth-child(4) {
+.loader .appears .circle:nth-child(4) {
   animation-delay: 0.75s;
 }
-.loader .spinner .circle:nth-child(5) {
+.loader .appears .circle:nth-child(5) {
   animation-delay: 1s;
 }
-.loader .spinner .circle:nth-child(6) {
+.loader .appears .circle:nth-child(6) {
   animation-delay: 1.25s;
 }
-.loader .spinner .circle:nth-child(7) {
+.loader .appears .circle:nth-child(7) {
   animation-delay: 1.5s;
 }
-.loader .spinner .circle:nth-child(8) {
+.loader .appears .circle:nth-child(8) {
   animation-delay: 1.75s;
 }
-.loader .spinner .pink {
+.loader .appears .pink {
   background-color: #FF79DA;
 }
-.loader .spinner .shadow {
+.loader .appears .shadow {
   background-color: rgb(154, 150, 150);
   margin-top: 40px;
   height: 10px;
