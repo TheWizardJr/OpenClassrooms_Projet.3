@@ -181,6 +181,7 @@ h2 {
 .explain_card .explain_littlecard p {
   font-size: 15px;
   font-weight: 600;
+  padding-right: 20px;
 }
 .explain_card .explain_littlecard:hover {
   background-color: #F5EDFF;
